@@ -166,7 +166,7 @@ const useRootTraitType = true;
 
 const preview = {
   thumbPerRow: 5,
-  thumbWidth: 50,
+  thumbWidth: 200,
   imageRatio: format.width / format.height,
   imageName: "preview.png",
 };
