@@ -28,8 +28,8 @@ const outputJPEG = false; // if false, the generator outputs png's
 const startIndex = 0;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 2048,
+  height: 2048,
   smoothing: true, // set to false when up-scaling pixel art.
 };
 
@@ -40,22 +40,24 @@ const background = {
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 10,
-    namePrefix: "Series 2", // Use to add a name to Metadata `name:`
+    growEditionSizeTo: 100,
+    namePrefix: "Dinosaur", // Use to add a name to Metadata `name:`
     layersOrder: [
       { name: "Background" },
       {
-        name: "Back Accessory",
+        name: "Colors",
         // options: {
         //   bypassDNA: true,
         // },
       },
-      { name: "Head" },
-      { name: "Clothes" },
+      // { name: "Body" },
+      // { name: "Head" },
+      { name: "Body Grain" },
+      // { name: "Cloths" },
+      { name: "Necklace" },
+      { name: "Ear Drop" },
+      { name: "Headdress" },
       { name: "Eyes" },
-      { name: "Hair" },
-      { name: "Accessory" },
-      { name: "Shirt Accessories" },
     ],
   },
   // {
